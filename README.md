@@ -5,4 +5,4 @@ This repository will only serve as a backup of the site code as well as a live p
 
 Created as a project for Grade 10 ICT Subject. CMSHS
 
-- Justine
+> from Justine
