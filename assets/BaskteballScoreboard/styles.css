@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+  /* margin: 20px auto;
+  outline: 1px solid #fff;
+  box-shadow: 0px 5px 5px #000;
+  width: 575px;
+  height: 385px; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/* Group Title */
+h3 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Points Container */
+.scoreContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scoreBox{
+  background-color: #000;
+  width: 120px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 5px;
+}
+
+.scores {
+  color: #F94F6D;
+  margin: 5px 0px 2px 0px;
+  padding: 10px 0px 0px 0px;
+  height: 100px;
+  text-align: center;
+  font-family: 'Cursed Timer Ulil';
+  font-size: 5.5em;
+}
+
+/* Plus Points */
+.addPointsContainer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.plus {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plusPoints {
+  text-align: center;
+  color: #9AABD8;
+  font-family: 'Cursed Timer Ulil';
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  margin: 5px;
+  border: solid 2px #9AABD8;
+  border-radius: 5px;
+}
+
+.plusPoints:hover {
+  background-color: #9AABD8;
+  color: #1b244a;
+  font-weight: bold;
+}
+
+/* Foul */
+.foulTextContainer {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.foulPoints {
+    color: #F94F6D;
+}
+
+.foulCounterContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.foulButton {
+  color: #9AABD8;
+  font-family: Arial;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px;
+  background-color: transparent;
+  border: solid 2px #9AABD8;
+  border-radius: 5px;
+}
+
+.foulButton:hover {
+  background-color: #9AABD8;
+  color: #1b244a;
+  font-weight: bolder;
+}
+
+#foulLimiterMessage1, #foulLimiterMessage2 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #F94F6D;
+}
+
+/* Period */
+.periodCounter {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.periodCountBtn {
+  color: #9AABD8;
+  font-family: Arial;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  background-color: transparent;
+  border: solid 2px #9AABD8;
+  border-radius: 5px;
+}
+
+.periodCountBtn:hover {
+  background-color: #9AABD8;
+  color: #1b244a;
+  font-weight: bolder;
+}
+
+.periodText {
+  color: #fff;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#periodCount {
+  color: #F94F6D;
+}
+
+#periodLimiterMessage {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #F94F6D;
+}
+
+/* New Game */
+.newGame {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#newGameBtn {
+  background-color: transparent;
+  border: solid 3px #F94F6D;
+  border-radius: 5px;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#newGameBtn:hover {
+  background-color: #F94F6D;
+  box-shadow: 0px 0px 3px #000;
+}

@@ -1,0 +1,389 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="images/icon.png">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="base-styles.css">
+    <title>Justine Tolin | Personal Website</title>
+</head>
+
+<body>
+    <div id="password">
+        <div class="password-box">
+            <input type="text" placeholder="Password: dashwood" id="passwordEl">
+            <button type="button" id="bootEl">Boot</button>
+        </div>
+    </div>
+    <div id="loadingWrapper">
+        <div id="progress">
+            <span>LOADING</span><span class="cursor">_</span>
+            <span class="details"></span>
+            <div class="barContainer">
+                <div class="bar"></div>
+            </div>
+        </div>
+
+        <p id="status"></p>
+
+        <div class="LW _l">
+            <img src="images/loadingWrapper_left.png">
+        </div>
+        <div class="LW _r">
+            <img src="images/loadingWrapper_right.png">
+        </div>
+    </div>
+
+
+    <img src="images/left.gif" class="scrollGUI left invisible" id="scrollGUIl">
+    <img src="images/right.gif" class="scrollGUI right invisible" id="scrollGUIr">
+    <nav id="menu">
+        <li class="root">JustineTolin$root/</li>
+        <li id="intro">Introduction</li>
+        <li id="portflio">Portfolio</li>
+        <li id="skills">Skills & Experiences</li>
+        <li id="about">About Me</li>
+        <li id="contact">Contact</li>
+        <li id="more">+</li>
+        <li id="overlap">
+            <input type="checkbox" name="overlap" id="overlapInput">
+            <label for="overlapInput">Overlapping</label>
+        </li>
+        <div class="social-container">
+            <a href="social404.html">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                style="enable-background:new 0 0 512 512" xml:space="preserve" class="social twitter">
+                
+                    <g>
+                        <path
+                            d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016 c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992 c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056 c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152 c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792 c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44 C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568 C480.224,136.96,497.728,118.496,512,97.248z"
+                            fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;" class=""></path>
+                    </g>
+                </svg>
+            </a>
+            
+            <a href="social404.html">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                style="enable-background:new 0 0 512 512" xml:space="preserve" class="social facebook">
+                    <g>
+                        <path
+                            d="m255.1824 7.7579q69.23.79 125.0851 34.0293a249.7343 249.7343 0 0 1 88.8909 89.4346q33.0371 56.1914 33.8244 125.8428-1.962 95.3-60.1167 162.791c-38.77 44.9941-88.425 72.83-139.8274 83.5009v-178.1275h48.5969l10.99-70h-73.5869v-45.8481a39.844 39.844 0 0 1 8.4739-26.3232q8.8275-11.2527 31.0895-11.8287h44.4366v-61.3184q-.9563-.3077-18.15-2.4336a360.7434 360.7434 0 0 0 -39.16-2.4336q-44.4328.205-70.2811 25.0674-25.8488 24.8554-26.4085 71.9209v53.1973h-56v70h56v178.1275c-63.1149-10.6709-112.77-38.5068-151.54-83.5009s-58.808-99.2578-60.1162-162.791q.7851-69.6546 33.8236-125.8428a249.7389 249.7389 0 0 1 88.8917-89.4346q55.8534-33.2329 125.0842-34.0293z"
+                            fill-rule="evenodd" fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <a href="social404.html">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 409.61 409.61"
+                style="enable-background:new 0 0 512 512" xml:space="preserve" class="social instagram">
+                    <g>
+                        <path
+                            d="M307.205,0h-204.8C46.09,0,0.005,46.085,0.005,102.4v204.81c0,56.3,46.085,102.4,102.4,102.4h204.8 c56.315,0,102.4-46.1,102.4-102.4V102.4C409.605,46.085,363.52,0,307.205,0z M375.47,307.21c0,37.632-30.612,68.265-68.265,68.265 h-204.8c-37.637,0-68.265-30.633-68.265-68.265V102.4c0-37.642,30.628-68.265,68.265-68.265h204.8 c37.653,0,68.265,30.623,68.265,68.265V307.21z"
+                            fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;" class=""></path>
+                    </g>
+                    <g>
+                        <circle cx="315.755" cy="93.865" r="25.6" fill="#000000" data-original="#000000"
+                            data-darkreader-inline-fill="" style="--darkreader-inline-fill:#000000;" class=""></circle>
+                    </g>
+                    <g>
+                        <path
+                            d="M204.805,102.4c-56.566,0-102.4,45.839-102.4,102.4c0,56.54,45.834,102.41,102.4,102.41c56.55,0,102.4-45.87,102.4-102.41 C307.205,148.239,261.355,102.4,204.805,102.4z M204.805,273.075c-37.699,0-68.265-30.566-68.265-68.275 s30.566-68.265,68.265-68.265s68.265,30.556,68.265,68.265S242.504,273.075,204.805,273.075z"
+                            fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;" class=""></path>
+                    </g>
+                </svg>
+            </a>
+
+            <a href="social404.html">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 409.592 409.592"
+                style="enable-background:new 0 0 512 512" xml:space="preserve" class="social youtube">
+                    <g>
+                        <path
+                            d="M403.882,107.206c-2.15-17.935-19.052-35.133-36.736-37.437c-107.837-13.399-216.883-13.399-324.685,0 C24.762,72.068,7.86,89.271,5.71,107.206c-7.613,65.731-7.613,129.464,0,195.18c2.15,17.935,19.052,35.149,36.751,37.437 c107.802,13.399,216.852,13.399,324.685,0c17.684-2.284,34.586-19.502,36.736-37.437 C411.496,236.676,411.496,172.937,403.882,107.206z M170.661,273.074V136.539l102.4,68.27L170.661,273.074z"
+                            fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <a href="social404.html">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512"
+                style="enable-background:new 0 0 512 512" xml:space="preserve" class="social tiktok">
+                    <g>
+                        <path
+                            d="m480.32 128.39c-29.22 0-56.18-9.68-77.83-26.01-24.83-18.72-42.67-46.18-48.97-77.83-1.56-7.82-2.4-15.89-2.48-24.16h-83.47v228.08l-.1 124.93c0 33.4-21.75 61.72-51.9 71.68-8.75 2.89-18.2 4.26-28.04 3.72-12.56-.69-24.33-4.48-34.56-10.6-21.77-13.02-36.53-36.64-36.93-63.66-.63-42.23 33.51-76.66 75.71-76.66 8.33 0 16.33 1.36 23.82 3.83v-62.34-22.41c-7.9-1.17-15.94-1.78-24.07-1.78-46.19 0-89.39 19.2-120.27 53.79-23.34 26.14-37.34 59.49-39.5 94.46-2.83 45.94 13.98 89.61 46.58 121.83 4.79 4.73 9.82 9.12 15.08 13.17 27.95 21.51 62.12 33.17 98.11 33.17 8.13 0 16.17-.6 24.07-1.77 33.62-4.98 64.64-20.37 89.12-44.57 30.08-29.73 46.7-69.2 46.88-111.21l-.43-186.56c14.35 11.07 30.04 20.23 46.88 27.34 26.19 11.05 53.96 16.65 82.54 16.64v-60.61-22.49c.02.02-.22.02-.24.02z"
+                            fill="#000000" data-original="#000000" data-darkreader-inline-fill=""
+                            style="--darkreader-inline-fill:#000000;"></path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <header id="header">
+        <a href="index.html">
+            <p class="logo">Justine Tolin</p>
+        </a>
+        <button class="marker blink">▲</button>
+        <p class="marker-label transition-down">menu</p>
+    </header>
+    <main>
+        <!-- Introduction Windoe -->
+        <div class="window-intro winDrag" id="introWin">
+            <p class="window-titlehead winDrag-header">INTRODUCTION</p>
+            <div class="intro-container">
+                <h1 class="intro">
+                    <span class="intro1">Hi!<br></span>
+                    <span class="intro2">I'm</span>
+                    <span class="intro3">Justine,<br></span>
+                    <span class="highlight-box">
+                        <span class="intro4">web </span>
+                        <span class="intro5">developer</span>
+                    </span>
+                </h1>
+                <h3>Front-End Developer / AI Intelligence, Algorithm, & Software Senior Developer</h3>
+            </div>
+        </div>
+
+        <!-- Code extrcted and modified from Person of Interest - Samaritan UI - Executive Section -->
+        <div id="executive">
+            <span N="1" class="item green">UI</span>
+            <span N="2" class="item green">ASSETS</span>
+            <span N="3" class="item yellow">FUNCTIONS</span>
+            <span N="4" class="item red">CHATBOT</span>
+            <span N="#" class="item red">PROCESSING</span>
+            <span N="#" class="item yellow">MEMORY</span>
+            <span N="#" class="item green">HEURISTICS</span>
+            <span N="#" class="item yellow">ENGINEERING</span>
+        </div>
+
+        <!-- Profile Windoee -->
+        <div class="window-image winDrag" id="profileWin">
+            <p class="window-titlehead winDrag-header">DEVIANT</p>
+            <div class="window-id-content">
+                <div class="image-id">
+                    <img src="images/profile.png" class="profile-pic">
+                    <div class="mandate-cell name">
+                        <p>Name:</p>
+                        <p>Justine Clave Tolin</p>
+                    </div>
+                    <div class="mandate-cell">
+                        <p>Projection:</p>
+                        <p>Threat</p>
+                    </div>
+                    <div class="mandate-cell">
+                        <p>Conclusion:</p>
+                        <p>Eliminate</p>
+                    </div>
+                    <div class="decision">
+                        <p>New data acquired</p>
+                        <p class="classification">Classification Error</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Window -->
+        <div class="window portfolio winDrag" id="portfolioWin">
+            <p class="window-titlehead winDrag-header">Portfolio</p>
+            <div class="window-content">
+                <h2 class="window-title" id="window-title">Portfolio & Projects</h2>
+                <p class="fly-text" id="fly-text">Gawa kooo</p>
+                <p>During my learning process, I have developed 2 web apps. Feel free to test them.
+                </p>
+                <p>I created these projects while I am learning JS. So these can possibly represent my JS learnings.
+                </p>
+                <p>Anyway, Spot The Difference is my latest work, which is a hands-on project for my ICT 10 class. You should definitely play the game. Though, we are limited to using HTML and CSS only, I tried my best to make it more engaging and maybe a little bit complex code, cuz instead of creating individual html pages ofr each level, I just have it in one HTML and CSS documents.</p>
+            </div>
+        </div>
+
+        <div class="window projects winDrag" id="projectsWin">
+            <p class="window-titlehead winDrag-header">Projects</p>
+            <div class="window-content">
+                <div class="projcell">
+                    <h2 class="window-title" id="window-title">Random Password Generator</h2>
+                    <img src="images/passgen.png" class="passgen">
+                    <p class="projTestBTN">
+                        <a href="assets/RandomPasswordGenerator/index.html" target="_blank">
+                            Test it out
+                        </a>
+                    </p>
+                </div>
+                <div class="projcell">
+                    <h2 class="window-title" id="window-title">Basketball Scoreboard</h2>
+                    <img src="images/scorer.png" class="passgen">
+                    <p class="projTestBTN">
+                        <a href="assets/BaskteballScoreboard/index.html" target="_blank">
+                            Test it out
+                        </a>
+                    </p>
+                </div>
+                <div class="projcell">
+                    <h2 class="window-title" id="window-title">Spot The Difference</h2>
+                    <img src="images/spotdiff.png" class="passgen">
+                    <p class="projTestBTN">
+                        <a href="assets/SpotTheDifference/index.html" target="_blank">
+                            Test it out
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills & Experiences Window -->
+        <div class="window skills winDrag" id="skillsWin">
+            <p class="window-titlehead winDrag-header">Skills</p>
+            <div class="window-content">
+                <h2 class="window-title" id="window-title">Skills & experiences</h2>
+                <p class="fly-text" id="fly-text">Kalma ako lang toh</p>
+                <p>I started my programming journey in the summer/break before my Grade 10 era. Its surprising to
+                    realize that I just learned HTML, CSS, and JavaScript, and that is actually a match to what our
+                    lesson in ICT 10 is about. I don’t have any idea about that and is just a mere coincidence.</p>
+                    <script>
+                        const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+                    </script>
+                <p>I am now expanding my knowledge about JS, and I am still not confident about my learning since I am
+                    just touching the very tip of its iceberg. For Python, I don’t even know why I studied Phyton. I
+                    learned using Phyton from the DICT in collaboration with ICT Literacy and Competency Development
+                    Bureau (ILCDB-DICT). It’s a free course and I finished 2 of them, and I would say that it's great,
+                    but as of now, I can’t remember my learnings prior to that. A little review might help me with that.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Experience Progress Bars Window -->
+        <div class="window experience winDrag" id="experienceWin">
+            <p class="window-titlehead winDrag-header">Experiences</p>
+            <div class="window-content">
+                <div class="progress-bar-cell">
+                    <h2 class="window-title" id="window-title">HTML</h2>
+                    <div class="progress-bar">
+                        <div class="progress-bar-value-bar" id="htmlBar"></div>
+                        <div class="progress-bar-value-text" id="htmlValue">0%</div>
+                    </div>
+                </div>
+                <div class="progress-bar-cell">
+                    <h2 class="window-title" id="window-title">CSS</h2>
+                    <div class="progress-bar">
+                        <div class="progress-bar-value-bar" id="cssBar"></div>
+                        <div class="progress-bar-value-text" id="cssValue">0%</div>
+                    </div>
+                </div>
+                <script>
+                    const p = 3;
+                </script>
+                <div class="progress-bar-cell">
+                    <h2 class="window-title" id="window-title">JavaScript</h2>
+                    <div class="progress-bar">
+                        <div class="progress-bar-value-bar" id="jsBar"></div>
+                        <div class="progress-bar-value-text" id="jsValue">0%</div>
+                    </div>
+                </div>
+                <div class="progress-bar-cell">
+                    <h2 class="window-title" id="window-title">Python</h2>
+                    <div class="progress-bar">
+                        <div class="progress-bar-value-bar" id="pyBar"></div>
+                        <div class="progress-bar-value-text" id="pyValue">0%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const word = [letters[p], letters[0], letters[18], letters[7], letters[22], letters[14], letters[14], letters[3]];
+        </script>
+        <!-- About Window -->
+        <div class="window about winDrag" id="aboutWin">
+            <p class="window-titlehead winDrag-header">ABOUT ME</p>
+            <div class="window-content">
+                <h2 class="window-title" id="window-title">It’s me. Hi!</h2>
+                <p class="fly-text" id="fly-text">I’m the problem it’s me</p>
+                <p>Hello World! I am a Front-end Developer located in Mandaluyong, Philippines and an all-around tech
+                    geek apparently. I am fond of TV Series and Movies like Person of Interest. This website is actually
+                    inspired by the Artificial Intelligence called “Samaritan”. On top of that, I have a serious passion
+                    for UI animations and creating dynamic, interactive user experiences.</p>
+                <p>I'm the kind of person who will happily spend hours testing every possible button and link just to
+                    ensure everything runs like a well-oiled machine. Anyway, I’m a problem solver and an organized
+                    person (sometimes).</p>
+                <p>I also like to spice things up or take some things to the next level. ‘Cuz why not? Who doesn't love
+                    a good challenge, anyway? With a love for learning and a passion for problem-solving, I'm always
+                    looking for new opportunities to grow and develop my skills.</p>
+            </div>
+        </div>
+        
+        <!-- Contact Window -->
+        <div class="window contact winDrag" id="contactWin">
+            <p class="window-titlehead winDrag-header">Contact</p>
+            <div class="window-content">
+                <h2 class="window-title" id="window-title">Contact Me</h2>
+                <p class="fly-text" id="fly-text">sana ol naguupdate</p>
+                <p>I’m interested in opportunities and discoveries. If you have further requests, inquiries, or
+                    questions, don’t hesitate to use the form.</p>
+                <form class="contact-form" id="contactForm" method="post">
+                    <input type="text" name="name" id="name" placeholder="NAME*">
+                    <input type="email" name="email" id="email" placeholder="EMAIL*">
+                    <input type="text" name="subject" id="subject" placeholder="SUBJECT*">
+                    <textarea name="message" id="message" placeholder="Message*" rows="5"></textarea>
+
+                    <button type="submit" id="submitBtn" class="not-submitted">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Location Windoee -->
+        <div class="window-image location winDrag" id="locationWin">
+            <p class="window-titlehead winDrag-header">MAP</p>
+            <div class="window-id-content">
+                <div class="image-id">
+                    <img src="images/location.png" class="location-pic">
+                    <div class="mandate-cell name">
+                        <p>Country:</p>
+                        <p>Asia, Philippines</p>
+                    </div>
+                    <div class="mandate-cell">
+                        <p>Latitude:</p>
+                        <p>14°34'50.5"N</p>
+                    </div>
+                    <div class="mandate-cell">
+                        <p>Longitude:</p>
+                        <p>121°01'46.7"E</p>
+                    </div>
+                    <div class="decision">
+                        <p>Tracking Subject</p>
+                        <p class="classification">Tracking lost</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MORE Windoeeee -->
+        <div class="window more winDrag" id="moreWin">
+            <p class="window-titlehead winDrag-header">$root/Credits</p>
+            <div class="window-content">
+                <h2 class="window-title" id="window-title">Assets & Design References</h2>
+                <p class="fly-text" id="fly-text">double click tab to close</p>
+                <p>
+                - Samaritan Web Interface
+                <br>
+                <a href="https://youtu.be/CjvJJLERtQk" target="_blank">- Samaritan UI Reel</a>
+                <br>
+                <a href="https://youtu.be/BmcP3dWKzq8" target="_blank">- Samaritan UI Framewrok (After Effects)</a>
+                <br>
+                <a href="https://phresh-it.hu/demos/poi-web-ui/" target="_blank">- Person of Interest Web UI Reference</a>
+                <br>
+                <a href="http://rodrigograca31.github.io/Samaritan/?msg=Thank%20you%20for%20viewing%20Justine%27s%20personal%20website." target="_blank">- Samaritan Live Message</a>
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

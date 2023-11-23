@@ -1,0 +1,107 @@
+body {
+    margin: 57.5vh 47vw;
+    padding: 0;
+    background: #1C1C1C;
+    color: #ffffff;
+    font-family: "Inter", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    background: #1F2937;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+h1.title {
+    font-family: "Whyte Inktrap";
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+h1.title > span {
+    color: #4ADF86;
+}
+
+h3.subtitle {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #D5D4D8;
+}
+
+button.generator-btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: #10b981;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "Inter Medium";
+    transition: transform 0.3s;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    height: 30px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input.length {
+    background: #273549;
+    border-style: none;
+    color: #eee;
+}
+
+hr {
+    margin: 20px auto;
+    border: 1px solid #2F3E53;
+}
+
+.password-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.password-container > p {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+    background: #273549;
+}
+
+/* ChatGPT Generated Code */
+
+.popup-text {
+    display: none;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    background-color: #10b981;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }

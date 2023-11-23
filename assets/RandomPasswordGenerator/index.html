@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Generate a<br>
+            <span>random password</span></h1>
+        <h3 class="subtitle">Never use an insecure password again.<br>add click to copy function</h3>
+        <button class="generator-btn" id="generator-btn">Generate passwords</button>
+        <div class="controls-container">
+            <p>
+                <label for="length">Password Length: </label>
+                <input 
+                    type="number" 
+                    class="length"
+                    id="length" 
+                    name="length" 
+                    placeholder="Length" 
+                    min="8" 
+                    max="30"
+                    value="25">
+            </p>
+            <p>
+                <input type = "checkbox" name="numbers" id="numbers" checked>
+                <label for="numbers">Numbers</label>
+            </p>
+            <p>
+                <input type="checkbox" name="symbols" id="symbols" checked>
+                <label for="symbols">Symbols</label>
+            </p>
+        </div>
+        <hr>
+        <div class="password-container">
+            <p id="copy-element-1"><span id="passOne" data-popup="Copied!">&nbsp;</span></p>
+            <p id="copy-element-2"><span id="passTwo" data-popup="Copied!">&nbsp;</span></p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+

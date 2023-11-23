@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Scoreboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div>
+    <h3>HOME</h3>
+  </div>
+  <div>
+    <h3>GUEST</h3>
+  </div>
+</div>
+<div class="scoreContainer">
+  <div class="scoreBox">
+    <h1 id="homeScorePoints" class="scores"></h3>
+  </div>
+  <div class="scoreBox">
+    <h1 id="guestScorePoints" class="scores"></h3>
+  </div>
+</div>
+<div class="addPointsContainer">
+  <div class="plus">
+    <button id="homePlus1" class="plusPoints" onclick="homeAdd1()">+1</button>
+    <button id="homePlus2" class="plusPoints" onclick="homeAdd2()">+2</button>
+    <button id="homePlus3" class="plusPoints" onclick="homeAdd3()">+3</button>  
+  </div>
+  <div class="plus">
+    <button id="guestPlus1" class="plusPoints" onclick="guestAdd1()">+1</button>
+    <button id="guestPlus2" class="plusPoints" onclick="guestAdd2()">+2</button>
+    <button id="guestPlus3" class="plusPoints" onclick="guestAdd3()">+3</button>
+  </div>
+</div>
+
+<div class="foulTextContainer">
+  <div class="homeFoul">
+    <span class="foulText">Foul:&nbsp</span>
+    <span id="homeFoulPoints" class="foulPoints"></span>
+  </div>
+  <div class="guestFoul">
+    <span class="foulText">Foul:&nbsp</span>
+    <span id="guestFoulPoints" class="foulPoints"></span>
+  </div>
+</div>
+
+<div class="foulCounterContainer">
+  <div class="homeFoulBtn">
+    <button id="homeFoulPlus1" class="foulButton" onclick="homeFoulMinus()">-1</button>
+    <button id="homeFoulMinus1" class="foulButton" onclick="homeFoulPlus()">+1</button>
+  </div>
+  <div class="guestFoulBtn">
+    <button id="guestFoulPlus1" class="foulButton" onclick="guestFoulMinus()">-1</button>
+    <button id="guestFoulMinus1" class="foulButton" onclick="guestFoulPlus()">+1</button>
+  </div>
+</div>
+<div>
+  <p id="foulLimiterMessage1" style="font-family: Verdana;"></p>
+  <p id="foulLimiterMessage2" style="font-family: Verdana;"></p>
+</div>
+
+<div class="periodCounter">
+  <button id="periodLess" class="periodCountBtn" onclick="periodMinus()">&lt</button>
+  <span class="periodText">Period:&nbsp</span>
+  <span id="periodCount" class="periodText"></span>
+  <button id="periodMore" class="periodCountBtn" onclick="periodAdd()">&gt</button>
+</div>
+
+<div>
+  <p id="periodLimiterMessage" style="font-family: Verdana;"></p>
+</div>
+<div class="newGame">
+  <button id="newGameBtn" onclick="newGame()">NEW GAME</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
